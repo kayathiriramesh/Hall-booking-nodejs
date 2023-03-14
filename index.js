@@ -56,6 +56,7 @@ app.get("/listRooms", (req, res) => {
     res.send(rooms)
 })
 
+
 //Book rooms
 app.post("/bookRoom", (req, res, next) => {
     for (let i = 0; i < rooms.length; i++) {
